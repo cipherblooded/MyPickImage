@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:paddingTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/camera_button"
+            style="@style/Widget.MaterialComponents.Button.TextButton.Icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Camera"
+            android:textColor="@color/black"
+            android:textAllCaps="false"
+            app:icon="@drawable/ic_baseline_add_a_photo_32"
+            app:iconTint="@color/black"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:layout_marginStart="10dp"
+            android:id="@+id/gallery_button"
+            style="@style/Widget.MaterialComponents.Button.TextButton.Icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Gallery"
+            android:textColor="@color/black"
+            android:textAllCaps="false"
+            app:icon="@drawable/ic_baseline_add_photo_alternate_36"
+            app:iconTint="@color/black"/>
+
+    </LinearLayout>
+
+</LinearLayout>
